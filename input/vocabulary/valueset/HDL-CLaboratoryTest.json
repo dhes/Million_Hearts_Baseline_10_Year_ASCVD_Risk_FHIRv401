@@ -1,0 +1,47 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113883.3.464.1003.104.12.1012",
+  "meta": {
+    "versionId": "19",
+    "lastUpdated": "2017-03-21T09:31:06.000-04:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Value Set Contents</h3><p>This value set contains 3 concepts</p><p>All codes from system <code>http://loinc.org</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-18263-4\"> </a><a href=\"http://details.loinc.org/LOINC/18263-4.html\">18263-4</a></td><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma ultracentrifugate</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-2085-9\"> </a><a href=\"http://details.loinc.org/LOINC/2085-9.html\">2085-9</a></td><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-49130-8\"> </a><a href=\"http://details.loinc.org/LOINC/49130-8.html\">49130-8</a></td><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma by Electrophoresis</td></tr></table></div>"
+  },
+  "url": "https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.104.12.1012",
+  "version": "Draft",
+  "name": "HDL-C Laboratory Test",
+  "status": "draft",
+  "date": "2017-03-21T09:31:06-04:00",
+  "publisher": "NCQA PHEMUR",
+  "expansion": {
+    "identifier": "urn:uuid:858e7afd-b8a1-425c-817d-6d3d5fc49223",
+    "timestamp": "2021-11-03T21:18:36-04:00",
+    "total": 3,
+    "offset": 0,
+    "parameter": [ {
+      "name": "count",
+      "valueInteger": 1000
+    }, {
+      "name": "offset",
+      "valueInteger": 0
+    } ],
+    "contains": [ {
+      "system": "http://loinc.org",
+      "version": "2.71",
+      "code": "18263-4",
+      "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma ultracentrifugate"
+    }, {
+      "system": "http://loinc.org",
+      "version": "2.71",
+      "code": "2085-9",
+      "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+    }, {
+      "system": "http://loinc.org",
+      "version": "2.71",
+      "code": "49130-8",
+      "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma by Electrophoresis"
+    } ]
+  }
+}

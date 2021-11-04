@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113883.3.600.877",
+  "meta": {
+    "versionId": "15",
+    "lastUpdated": "2016-03-31T01:00:12.000-04:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Value Set Contents</h3><p>This value set contains 2 concepts</p><p>All codes from system <code>http://loinc.org</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-14647-2\"> </a><a href=\"http://details.loinc.org/LOINC/14647-2.html\">14647-2</a></td><td>Cholesterol [Moles/volume] in Serum or Plasma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-2093-3\"> </a><a href=\"http://details.loinc.org/LOINC/2093-3.html\">2093-3</a></td><td>Cholesterol [Mass/volume] in Serum or Plasma</td></tr></table></div>"
+  },
+  "url": "https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.877",
+  "version": "20160331",
+  "name": "Total Cholesterol LOINC",
+  "status": "active",
+  "date": "2016-03-31T01:00:12-04:00",
+  "publisher": "QIP",
+  "expansion": {
+    "identifier": "urn:uuid:d50da519-70d1-48cb-be70-d160b73f0927",
+    "timestamp": "2021-11-03T21:17:47-04:00",
+    "total": 2,
+    "offset": 0,
+    "parameter": [ {
+      "name": "count",
+      "valueInteger": 1000
+    }, {
+      "name": "offset",
+      "valueInteger": 0
+    } ],
+    "contains": [ {
+      "system": "http://loinc.org",
+      "version": "2.71",
+      "code": "14647-2",
+      "display": "Cholesterol [Moles/volume] in Serum or Plasma"
+    }, {
+      "system": "http://loinc.org",
+      "version": "2.71",
+      "code": "2093-3",
+      "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+    } ]
+  }
+}

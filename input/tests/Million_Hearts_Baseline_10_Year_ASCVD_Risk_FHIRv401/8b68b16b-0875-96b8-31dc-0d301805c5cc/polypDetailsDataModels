@@ -1,0 +1,25 @@
+Procedure
+	|
+	|-report-|reference to: Procedure Diagnostic Report-polyp length (e.g. 6 mm)
+	|		 |								 	｜
+	|		 |	 								｜-Observation(s)ref to specimen by ID
+	|		 |										
+	|		 |---|reference to: Pathology Diagnostic Report-polyp microscopic morphology (e.g. Tubular Adenoma)
+	|		  	 								｜
+	|		  	 								｜-Observation(s)->ref to specimen by ID
+	|
+Specimens(s)
+	|
+	|-ID
+	|-specimenQuantity (in mm)? (or put as observation connected to Procedure Diagnostic Report)
+	|-bodySite
+	|
+	|
+Observation(s)
+	|
+	|-code/value-microscopic morphology
+	|
+	|-?code/value-length (if not in Specimen)
+	|
+	|-ref to Specimens by ID
+	|

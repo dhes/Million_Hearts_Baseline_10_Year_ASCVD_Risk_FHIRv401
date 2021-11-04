@@ -1,0 +1,47 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113762.1.4.1104.2",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2015-02-06T01:00:02.000-05:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Value Set Contents</h3><p>This value set contains 3 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-271649006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=271649006\">271649006</a></td><td>http://snomed.info/sct</td><td>Systolic blood pressure (observable entity)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-399304008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=399304008\">399304008</a></td><td>http://snomed.info/sct</td><td>Systolic blood pressure on admission (observable entity)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-8480-6\"> </a><a href=\"http://details.loinc.org/LOINC/8480-6.html\">8480-6</a></td><td>http://loinc.org</td><td>Systolic blood pressure</td></tr></table></div>"
+  },
+  "url": "https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1104.2",
+  "version": "20150206",
+  "name": "Systolic blood pressure",
+  "status": "active",
+  "date": "2015-02-06T01:00:02-05:00",
+  "publisher": "Yale",
+  "expansion": {
+    "identifier": "urn:uuid:c6e66ee6-d60f-49b6-a0ed-399e54830832",
+    "timestamp": "2021-11-03T21:26:22-04:00",
+    "total": 3,
+    "offset": 0,
+    "parameter": [ {
+      "name": "count",
+      "valueInteger": 1000
+    }, {
+      "name": "offset",
+      "valueInteger": 0
+    } ],
+    "contains": [ {
+      "system": "http://snomed.info/sct",
+      "version": "http://snomed.info/sct/731000124108/version/20210901",
+      "code": "271649006",
+      "display": "Systolic blood pressure (observable entity)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "version": "http://snomed.info/sct/731000124108/version/20210901",
+      "code": "399304008",
+      "display": "Systolic blood pressure on admission (observable entity)"
+    }, {
+      "system": "http://loinc.org",
+      "version": "2.71",
+      "code": "8480-6",
+      "display": "Systolic blood pressure"
+    } ]
+  }
+}
